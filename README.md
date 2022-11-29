@@ -27,7 +27,7 @@ In order to run this application you must have.
 
 ### Axios
 
-I am usign Axios which is a Axios is a promised-based HTTP client for JavaScript to make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project.
+- I am using Axios which is a is a promised-based HTTP client for JavaScript to make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project.
 ```shell script
       npm install axios
 ```
@@ -41,8 +41,8 @@ I am usign Axios which is a Axios is a promised-based HTTP client for JavaScript
 
 ## Future Improvment 
 
-for future imrpovement we can create more filters for repo search (by progtamming langague, date of publishing etc...)
+ - For future imrpovement we can create more filters for repo search (by progtamming langague, date of publishing etc...)
 
 ## FeedBack 
 
-This a very usueful exercise to learn more about the Github API and mess with it.
+- This a very usueful exercise to learn more about the Github API and mess with it.
