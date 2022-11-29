@@ -45,4 +45,4 @@ In order to run this application you must have.
 
 ## FeedBack 
 
-- This a very usueful exercise to learn more about the Github API and mess with it.
+- This is a very usueful exercise to learn more about the Github API and mess with it.
