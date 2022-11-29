@@ -7,6 +7,7 @@ import axio from '../API/axio'
 
 
 export function SearchRepo(){
+  
     const [initialRepositories, setInitialRepositories] = useState([])
   const [repositories, setRepositories] = useState([])
   const [userGitHub, setUserGitHub] = useState('')
@@ -102,26 +103,26 @@ export function SearchRepo(){
             return (
               <div className="sm:w-full	 block rounded-lg shadow-lg bg-white max-w-sm text-center ml-5 mt-5 mb-5 md:w-1/2  	">
                 <h5
-                  key={repository.id}
+                  key={repository['id']}
                   className="text-gray-900 text-xl font-medium mb-2 "
                 >
-                  {repository.name}
+                  {repository['name']}
                 </h5>
                 <div
                   className=" text-gray-700 text-base mb-4"
                 >
-                  {repository.description}
+                  {repository['description']}
                 </div>
 
                 <a
-                  href={repository.html_url}
+                  href={repository['html_url']}
                   target="_blanck"
                   className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mb-2"
                 >
                   Check Code
                 </a>
                 <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
-                {repository.language}
+                {repository['language']}
                 </div>
               </div>
             )
