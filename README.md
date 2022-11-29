@@ -1,1 +1,1 @@
-# GitHub-Repos-Search-App-
+# GitHub-Repos-Search-App
