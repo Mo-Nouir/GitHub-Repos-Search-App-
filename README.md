@@ -13,9 +13,8 @@ In order to run this application you must have.
 
 ### Vite
 
-- Vite is used to bundle all source codes. It's an extremely fast bundler, that has a vast array of amazing features.
--Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
- [Vite](https://vitejs.dev/guide/)
+- [Vite](https://vitejs.dev/guide/) is a build tool that aims to provide a faster and leaner development experience for modern web projects and it's used to bundle all source codes. It's an extremely fast bundler, that has a vast array of amazing features.
+ 
 
 
 ### TailwindCSS
